@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Andrés Toscano</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -21,6 +23,84 @@
     </header>
     <secction>
         <h2 id="quienSoy">¿Quien soy?</h2>
+        <p>
+            Soy estudiante de 7° semestre de Ingeniería de Sistemas, apasionado por el aprendizaje continuo y la
+            tecnología. Me impulsa la curiosidad: siempre estoy explorando nuevas herramientas, lenguajes y metodologías
+            que me permitan crecer como desarrollador. Fuera del código, el deporte es parte esencial de mi vida —
+            disciplina, trabajo en equipo y superación constante que también aplico en cada proyecto. Si estás buscando
+            a alguien comprometido, versátil y con hambre de mejorar, estás en el lugar correcto.
+        </p>
+        <ul>
+            <li>Futbolista activo — fui subcampeón nacional de Colombia</li>
+            <li>Cursando 7° semestre de Ing. de Sistemas en modalidad en línea</li>
+            <li>Originalmente iba a estudiar Ingeniería de Software antes de cambiar a Sistemas</li>
+            <li>Manejo del inglés a nivel intermedio (lectura técnica y comunicación básica)</li>
+            <li>Entusiasta del desarrollo web, siempre aprendiendo nuevas tecnologías</li>
+        </ul>
+        <div class="datos-curiosos">
+            <h3>Datos curiosos</h3>
+            <ul>
+                <li>Fan incondicional de Michael Jackson</li>
+                <li>Me apasiona el jazz — Miles Davis, Coltrane, lo que sea</li>
+                <li>
+                    Tengo un perro llamado <strong>Loki</strong>
+                    <div class="foto-loki">
+                        <img src="Loki.png" alt="Loki, mi perro" />
+                        <!-- Reemplaza la ruta por tu imagen real -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="habilidades">
+            <h3>Áreas de dominio</h3>
+
+            <div class="skill-bar">
+                <span class="skill-label">Frontend</span>
+                <div class="bar">
+                    <div class="fill" style="width: 70%">70%</div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <span class="skill-label">Backend</span>
+                <div class="bar">
+                    <div class="fill" style="width: 40%">40%</div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <span class="skill-label">Inglés</span>
+                <div class="bar">
+                    <div class="fill" style="width: 85%">85%</div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <span class="skill-label">Bases de datos</span>
+                <div class="bar">
+                    <div class="fill" style="width: 55%">55%</div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <span class="skill-label">Control de versiones (Git)</span>
+                <div class="bar">
+                    <div class="fill" style="width: 75%">75%</div>
+                </div>
+            </div>
+        </div>
+        <div class="leer-mas-wrapper">
+            <button id="btnLeerMas" onclick="toggleLeerMas()">Leer más ▼</button>
+            <div id="masInfo" style="display: none;">
+                <p>
+                    Mi camino en la programación empezó con una idea clara: quería construir cosas que la gente usara.
+                    Desde que descubrí el desarrollo web, cada proyecto se convirtió en una oportunidad de aprender algo
+                    nuevo. Combino mi mentalidad deportiva — esfuerzo, constancia y trabajo en equipo — con mi pasión
+                    por la tecnología para entregar resultados reales. Estoy listo para enfrentar retos, trabajar en
+                    equipo y seguir creciendo profesionalmente.
+                </p>
+            </div>
+        </div>
     </secction>
     <section>
         <h2 id="habilidades">Habilidades e intereses</h2>
@@ -32,4 +112,5 @@
 
     </footer>
 </body>
+
 </html>
